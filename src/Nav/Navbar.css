@@ -1,0 +1,44 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 2;
+    font-family: poppins;
+}
+.bigone{
+    display: flex;
+     justify-content: space-between;
+      align-items: center;
+    background-color: rgba(0,0,0,0.5); 
+    color: white
+}
+ .navbar {
+    list-style-type: none;
+
+}
+ .navbar  li{
+    display: inline;
+
+} 
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(255, 182, 193, 0.4); /* Light pink-ish hover */
+  }
+  
+  .navbar a:visited {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    float: left;
+  }

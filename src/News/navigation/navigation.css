@@ -1,0 +1,38 @@
+.p11{
+    font-size: 34px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+.p21{
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+
+}
+.text1{
+    position: fixed;
+  bottom:10%;
+  left: 30px;
+  z-index: 1000;
+  width: 380px;
+
+}
+.divv{
+    background-color: rgba(150,150,150);
+    border-radius: 10px;
+    
+    animation: shadow 1s ease-in-out infinite ;
+    animation: op 5s ease-in-out infinite;
+}
+@keyframes shadow {
+from{box-shadow: 0 0 0 0 }
+to{box-shadow: 0 0 20px 0 ;}    
+}
+@keyframes op {
+    from{opacity: 0;}
+    to{opacity: 1;}
+    
+}

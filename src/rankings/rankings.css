@@ -1,0 +1,34 @@
+.divheadings{
+    position: fixed;
+    top:40%;
+    left: 40%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: '100vh'; 
+    
+    
+}
+.back{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    float: left;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+
+}
+.whole {
+    background-color: black; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+

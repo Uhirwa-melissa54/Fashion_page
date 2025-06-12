@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content div{
+    flex-basis: 50%;
+    /* border-radius: 10px;
+    overflow-y: hidden;
+    margin: 10px; */
+
+}
+.content div img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+     
+}
+.contentText{
+    
+    background-color:rgb(200,200,200);
+    box-shadow: 0 0 20px rgba(4,9,30,0.7);
+}
+.news{
+    color: black;
+}
